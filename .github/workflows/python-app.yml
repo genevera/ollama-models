@@ -1,9 +1,5 @@
 name: "Update Modles"
 
-on:
-  schedule:
-    - cron: "0 13 * * MON"
-
 permissions:
   contents: write
 
