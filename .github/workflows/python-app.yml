@@ -4,6 +4,8 @@ permissions:
   contents: write
 on:
   workflow_dispatch:
+  schedule:
+    - cron: "0 13 * * MON"
   
 jobs:
   build:
